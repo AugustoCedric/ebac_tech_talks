@@ -12,6 +12,9 @@
     <!-- meu css -->
     <link rel="stylesheet" href="./styles/main.scss">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>EBAC Tech Talks</title>
 </head>
 
@@ -20,16 +23,76 @@
         <div class="container">
             <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
             <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+                O maior evento de tecnologia do Brasil começa em <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item"><b>Localização</b> Joaão Pessoa - Paraíba - PB</li>
+                    <li class="infos-bar__infos__item"><b>Preço</b> A partir de R$ 120,00</li>
+                    <li class="infos-bar__infos__item"><b>12/03/2024</b> às 19hrs</li>
+                </ul>
+                <a href="" class="button button--primary">Garanta sua vaga</a>
+            </div>
         </div>
     </header>
-    
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem omnis eum at. Laborum
+                    quibusdam, facilis quidem corrupti iusto cumque porro voluptas aperiam nihil quas pariatur
+                    veritatis. Provident, nesciunt at.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Ux - Ui</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem omnis eum at. Laborum
+                    quibusdam, facilis quidem corrupti iusto cumque porro voluptas aperiam nihil quas pariatur
+                    veritatis. Provident, nesciunt at.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem omnis eum at. Laborum
+                    quibusdam, facilis quidem corrupti iusto cumque porro voluptas aperiam nihil quas pariatur
+                    veritatis. Provident, nesciunt at.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem omnis eum at. Laborum
+                    quibusdam, facilis quidem corrupti iusto cumque porro voluptas aperiam nihil quas pariatur
+                    veritatis. Provident, nesciunt at.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
 
 
 
 
-
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- meu Js -->
     <script src="./scripts/main.js"></script>
 </body>
